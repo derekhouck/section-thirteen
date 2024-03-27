@@ -1,19 +1,21 @@
 ---
 id: 5
-title: 'Aryiel Hartman joins the cast of ‘Superfan’ from director Zack Scott'
-date: '2014-02-18T02:36:31+00:00'
+title: "Aryiel Hartman joins the cast of ‘Superfan’ from director Zack Scott"
+date: "2014-02-18T02:36:31+00:00"
 author: derek
 layout: post
-guid: 'http://www.sectionthirteen.com/?p=5'
+guid: "http://www.sectionthirteen.com/?p=5"
 permalink: /2014/02/18/aryiel-hartman-joins-the-cast-of-superfan-from-director-zack-scott/
 categories:
-    - 'Press Releases'
-    - Superfan
+  - "Press Releases"
+  - Superfan
 ---
 
 <small>FOR IMMEDIATE RELEASE</small>
 
-<figure aria-describedby="caption-attachment-6" class="wp-caption alignright" id="attachment_6" style="width: 214px">![Aryiel Hartman](http://www.sectionthirteen.com/wp-content/uploads/2014/05/12283783-aryiel-hartman-214x300.jpg)<figcaption class="wp-caption-text" id="caption-attachment-6">Aryiel Hartman</figcaption></figure>*[PRLog (Press Release)](http://www.prlog.org/12283783-aryiel-hartman-joins-the-cast-of-superfan-from-director-zack-scott.html)* – ***Feb. 18, 2014* – *LOS ANGELES, Calif.* —** Section Thirteen announced today that Aryiel Hartman (“Harry Potter and the Ten Years Later,” “Water for Elephants”) has been set to star as the cam-girl SIREN92 in the upcoming Zack Scott short film “Superfan.”
+![Aryiel Hartman](/assets/img/2014/05/12283783-aryiel-hartman-214x300.jpg)
+
+_[PRLog (Press Release)](http://www.prlog.org/12283783-aryiel-hartman-joins-the-cast-of-superfan-from-director-zack-scott.html)_ – **_Feb. 18, 2014_ – _LOS ANGELES, Calif._ —** Section Thirteen announced today that Aryiel Hartman (“Harry Potter and the Ten Years Later,” “Water for Elephants”) has been set to star as the cam-girl SIREN92 in the upcoming Zack Scott short film “Superfan.”
 
 “SIREN92 is a complicated and sophisticated woman that requires someone who can command the screen,” Scott said. “She must be not only seductive and manipulative, but vulnerable as well. Aryiel’s background as a singer and burlesque artist are a perfect fit for SIREN92, and it is an honor to have her take on this role.”
 

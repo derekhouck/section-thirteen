@@ -1,28 +1,28 @@
 ---
 id: 54
-title: '‘Superfan’ to premiere at Action on Film International Film Festival'
-date: '2015-08-10T15:09:29+00:00'
+title: "‘Superfan’ to premiere at Action on Film International Film Festival"
+date: "2015-08-10T15:09:29+00:00"
 author: derek
 layout: post
-guid: 'http://sectionthirteen.com/?p=54'
+guid: "http://sectionthirteen.com/?p=54"
 permalink: /2015/08/10/superfan-to-premiere-at-action-on-film-international-film-festival/
-image: /wp-content/uploads/2015/08/Superfan-Poster-reduced.jpg
+image: /assets/img/2015/08/Superfan-Poster-reduced.jpg
 categories:
-    - 'Press Releases'
-    - Superfan
+  - "Press Releases"
+  - Superfan
 tags:
-    - 'Action on Film'
-    - AOF
-    - 'Aryiel Hartman'
-    - 'Derek Houck'
-    - PRLog
-    - Superfan
-    - 'Zack Scott'
+  - "Action on Film"
+  - AOF
+  - "Aryiel Hartman"
+  - "Derek Houck"
+  - PRLog
+  - Superfan
+  - "Zack Scott"
 ---
 
 <iframe allowfullscreen="" frameborder="0" height="360" loading="lazy" src="https://www.youtube.com/embed/fwXt1Q8fGh4?feature=oembed" width="640"></iframe>
 
-*[PRLog](http://www.prlog.org/12480983-superfan-to-premiere-at-action-on-film-international-film-festival.html)* – ***Aug. 10, 2015* – *LOS ANGELES* —** Section Thirteen announced today that “Superfan”<wbr></wbr> will have its world premiere at the 11th Annual Action on Film International Film Festival. The 2015 AOF Fest will run September 18 – 27 in the city of Monrovia, Calif.
+_[PRLog](http://www.prlog.org/12480983-superfan-to-premiere-at-action-on-film-international-film-festival.html)_ – **_Aug. 10, 2015_ – _LOS ANGELES_ —** Section Thirteen announced today that “Superfan”<wbr></wbr> will have its world premiere at the 11th Annual Action on Film International Film Festival. The 2015 AOF Fest will run September 18 – 27 in the city of Monrovia, Calif.
 
 “Superfan”<wbr></wbr> stars Aryiel Hartman (“Harry Potter and the Ten Years Later,” “Water for Elephants”) as SIREN92, a seductive cam girl, and Derek Houck (“Community,”<wbr></wbr> “United States of Tara”) as Sam, a lonely man who pays $3.99 a minute to talk to the most beautiful woman he’s ever seen. The short is directed by Zack Scott (“The 28th Day: The Wrath of Steph,” “Little Magdeline”).
 
