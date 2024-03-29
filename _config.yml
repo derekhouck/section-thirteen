@@ -27,6 +27,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sectionthirteen.com"
 github_username:  derekhouck
 
+header_pages:
+  - superfan.md
+  - press_releases.md
+
 # Build settings
 theme: minima
 plugins:
