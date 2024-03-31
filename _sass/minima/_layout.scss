@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  padding: calc($spacing-unit / 2) 0 calc($spacing-unit / 2);
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -17,6 +18,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  padding-right: calc(38px + calc($spacing-unit / 2));
 
   &,
   &:visited {
@@ -49,7 +51,7 @@
   @include media-query($on-palm) {
     position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
+    right: calc($spacing-unit / 2);
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
