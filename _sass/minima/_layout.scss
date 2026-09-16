@@ -47,6 +47,9 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -99,6 +102,9 @@
     .page-link {
       display: block;
       padding: 5px 10px;
+      text-transform: none;
+      font-size: 1rem;
+      letter-spacing: 0;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -209,6 +215,7 @@
   font-size: $small-font-size;
   color: $grey-color;
   font-style: italic;
+  letter-spacing: 0.5px;
 }
 
 .post-link {
@@ -226,12 +233,12 @@
 }
 
 .post-title {
-  @include relative-font-size(1.5);
-  letter-spacing: -0.5px;
+  @include relative-font-size(2);
+  letter-spacing: -1px;
   line-height: 1.2;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(1.35);
+    @include relative-font-size(1.75);
   }
 }
 
@@ -239,6 +246,14 @@
   margin-bottom: $spacing-unit;
 
   h2 {
+    @include relative-font-size(1.75);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.5);
+    }
+  }
+
+  h3 {
     @include relative-font-size(1.5);
 
     @include media-query($on-laptop) {
@@ -246,19 +261,11 @@
     }
   }
 
-  h3 {
-    @include relative-font-size(1.35);
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(1.2);
-    }
-  }
-
   h4 {
-    @include relative-font-size(1.2);
+    @include relative-font-size(1.25);
 
     @include media-query($on-laptop) {
-      @include relative-font-size(1.1);
+      @include relative-font-size(1.125);
     }
   }
 }
