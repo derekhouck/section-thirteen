@@ -49,3 +49,93 @@ $on-laptop:        900px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+/* Header and Navigation Styles */
+.site-header {
+  background: $background-color;
+  color: $text-color;
+  padding: 10px 2em;
+}
+
+.site-branding {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.site-branding .site-title img {
+  max-width: 250px;
+  height: auto;
+}
+
+.main-navigation {
+  display: block;
+  width: auto;
+  float: right;
+}
+
+.main-navigation ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  text-align: right;
+}
+
+.main-navigation li {
+  display: inline;
+  position: relative;
+}
+
+.main-navigation a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: $brand-color;
+}
+
+.main-navigation a:visited {
+  color: darken($brand-color, 10%);
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active {
+  color: lighten($brand-color, 20%);
+}
+
+/* Home Page Specific Header Layout */
+.home .site-branding {
+  float: none;
+  margin: 0 auto;
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home .site-branding .site-title img {
+  max-width: 500px;
+}
+
+.home .main-navigation {
+  clear: both;
+  width: 100%;
+}
+
+.home .main-navigation ul {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .site-branding,
+  .main-navigation {
+    float: none;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-navigation ul {
+    text-align: center;
+  }
+}

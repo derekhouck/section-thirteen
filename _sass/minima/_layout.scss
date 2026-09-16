@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: none;
+  border-bottom: none;
   min-height: $spacing-unit * 1.865;
   padding: calc($spacing-unit / 2) 0 calc($spacing-unit / 2);
 
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: $on-laptop) {
   .site-title {
-    max-width:  25%;
+    max-width: 100%;
   }
 }
 
@@ -23,8 +23,8 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
-  padding-right: calc(38px + calc($spacing-unit / 2));
+  display: block;
+  padding-right: 0;
 
   &,
   &:visited {
