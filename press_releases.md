@@ -1,4 +1,5 @@
 ---
 title: Press Releases
-layout: home
+layout: category
+category: Press Releases
 ---
