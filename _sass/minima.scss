@@ -114,7 +114,7 @@ $on-laptop:        900px !default;
 }
 
 .home .site-branding .site-title img {
-  max-width: 500px;
+  max-width: min(500px, 100%);
 }
 
 .home .main-navigation {
