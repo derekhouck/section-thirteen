@@ -121,14 +121,14 @@
  */
 .site-footer {
   clear: both;
-  font-size: 0.875em;
-  padding: 1em 2em;
+  padding: 1em 0;
   width: 100%;
   border-top: 1px solid $grey-color-light;
   color: #666;
 }
 
 .footer-col-wrapper {
+  font-size: 0.875em;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
