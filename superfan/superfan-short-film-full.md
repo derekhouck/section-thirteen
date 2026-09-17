@@ -3,7 +3,7 @@ id: 78
 title: 'Superfan | Short Film (Full)'
 date: '2020-03-07T17:32:40+00:00'
 author: derek
-layout: page
+layout: superfan
 guid: 'http://sectionthirteen.com/?page_id=78'
 ---
 

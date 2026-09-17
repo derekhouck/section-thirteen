@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<article class="superfan-page">
+
+  <header class="page-header">
+    {%- if page.image -%}
+      <img class="superfan-banner" src="{{ page.image | relative_url }}" alt="Everyone's seen her nude. He's the first to see her naked.">
+    {%- endif -%}
+
+    <h1 class="page-title">
+      <a href="{{ "/superfan.html" | relative_url }}">
+        <img src="{{ "/assets/img/2014/05/superfan-logo-black.png" | relative_url }}" alt="Superfan">
+      </a>
+    </h1>
+
+    <nav class="superfan-navigation">
+      <ul>
+        <li><a href="{{ "/superfan/superfan-short-film-full.html" | relative_url }}">Watch Now</a></li>
+        <li><a href="{{ "/superfan/trailer.html" | relative_url }}">Trailer</a></li>
+        <li><a href="{{ "/superfan/cast.html" | relative_url }}">Cast &amp; Crew</a></li>
+        <li><a href="{{ "/superfan/news.html" | relative_url }}">News</a></li>
+      </ul>
+    </nav>
+  </header><!-- .page-header -->
+
+  {%- unless page.superfan_index -%}
+    <header class="entry-header">
+      <h1 class="entry-title">{{ page.title }}</h1>
+    </header><!-- .entry-header -->
+  {%- endunless -%}
+
+  <div class="entry-content">
+    {{ content }}
+  </div><!-- .entry-content -->
+
+  {%- if page.superfan_index -%}
+    {%- assign superfan_posts = site.posts | where_exp: "post", "post.categories contains 'Superfan'" -%}
+    {%- if superfan_posts.size > 0 -%}
+      <div class="news">
+        <h2>Recent News</h2>
+        {%- for post in superfan_posts -%}
+          <article id="post-{{ post.id | default: post.slug }}" class="post type-post status-publish format-standard hentry">
+            <header class="entry-header">
+              <h1 class="entry-title"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h1>
+              <div class="entry-meta">
+                {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+                <span class="posted-on">Posted on <a href="{{ post.url | relative_url }}" rel="bookmark"><time class="entry-date published" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: date_format }}</time></a></span>
+              </div><!-- .entry-meta -->
+            </header><!-- .entry-header -->
+            <div class="entry-summary">
+              {{ post.content | replace: "</p>", "</p> " | strip_html | normalize_whitespace | truncatewords: 55 }}
+            </div><!-- .entry-summary -->
+          </article><!-- #post-## -->
+        {%- endfor -%}
+      </div><!-- .news -->
+    {%- endif -%}
+  {%- endif -%}
+
+</article><!-- .superfan-page -->

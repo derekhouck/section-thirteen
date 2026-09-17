@@ -1,0 +1,131 @@
+/**
+ * Superfan section
+ *
+ * Recreates the dark, high-contrast look the "Superfan" pages had on the
+ * original WordPress theme (see .page-template-superfan-php in the legacy
+ * stylesheet). Applied via `body.superfan`, which is set by the `superfan`
+ * layout.
+ */
+body.superfan {
+  background: #000;
+  color: #fff;
+
+  a {
+    color: #e34e50;
+
+    &:visited {
+      color: #aa3b3c;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: #a3c639;
+    }
+  }
+
+  .site-header,
+  .site-footer {
+    background: #fff;
+    color: $text-color;
+
+    a {
+      color: $brand-color;
+
+      &:visited {
+        color: darken($brand-color, 15%);
+      }
+
+      &:hover,
+      &:focus,
+      &:active {
+        color: $brand-color;
+      }
+    }
+  }
+}
+
+.superfan-page {
+  .page-header {
+    text-align: center;
+  }
+
+  .superfan-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: calc($spacing-unit / 2);
+  }
+
+  .page-title {
+    padding: 20px 0;
+
+    img {
+      max-width: 300px;
+    }
+  }
+
+  .superfan-navigation {
+    font-size: 1.125em;
+    margin-bottom: $spacing-unit;
+    text-transform: uppercase;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  > .entry-header .entry-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: calc($spacing-unit / 2);
+  }
+
+  .laurels {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: $spacing-unit 0;
+
+    img {
+      margin: 10px;
+      max-width: 200px;
+    }
+
+    // The Indie Gathering laurel is black artwork on a transparent
+    // background, so it needs a light backdrop to stay visible on the
+    // dark Superfan page.
+    #indiegathering {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #e34e50;
+    }
+  }
+
+  .news {
+    border-top: 1px solid #fff;
+    margin-top: $spacing-unit;
+    padding-top: calc($spacing-unit / 2);
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    h1 {
+      font-size: 1.125em;
+    }
+  }
+}

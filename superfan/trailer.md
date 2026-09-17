@@ -3,7 +3,7 @@ id: 37
 title: Trailer
 date: '2014-06-06T05:45:11+00:00'
 author: derek
-layout: page
+layout: superfan
 guid: 'http://sectionthirteen.com/?page_id=37'
 ---
 

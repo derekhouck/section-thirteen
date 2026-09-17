@@ -3,7 +3,7 @@ id: 28
 title: "Cast &#038; Crew"
 date: "2014-05-26T20:35:23+00:00"
 author: derek
-layout: page
+layout: superfan
 guid: "http://sectionthirteen.com/?page_id=28"
 ---
 
