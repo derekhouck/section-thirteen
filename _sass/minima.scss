@@ -55,23 +55,21 @@ $on-laptop:        900px !default;
   background: $background-color;
   color: $text-color;
   padding: 10px 2em;
+
+  .wrapper {
+    display: flex;
+  }
 }
 
 .site-branding {
-  float: left;
-  display: flex;
-  align-items: center;
-}
-
-.site-branding .site-title img {
+  display: inline-block;
   max-width: 250px;
-  height: auto;
 }
 
 .main-navigation {
   display: block;
+  flex: 1 0 auto;
   width: auto;
-  float: right;
 }
 
 .main-navigation ul {
@@ -104,17 +102,13 @@ $on-laptop:        900px !default;
 }
 
 /* Home Page Specific Header Layout */
-.home .site-branding {
-  float: none;
-  margin: 0 auto;
-  padding-top: 30px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.home .site-header .wrapper {
+  flex-direction: column;
 }
-
-.home .site-branding .site-title img {
-  max-width: min(500px, 100%);
+.home .site-branding {
+  margin: 0 auto;
+  max-width: 500px;
+  padding-top: 30px;
 }
 
 .home .main-navigation {
@@ -127,11 +121,13 @@ $on-laptop:        900px !default;
 }
 
 @media screen and (max-width: 600px) {
+  .site-header .wrapper {
+    flex-direction: column;
+  }
   .site-branding,
   .main-navigation {
-    float: none;
-    width: 100%;
     justify-content: center;
+    margin: 0 auto;
     text-align: center;
   }
 
