@@ -6,6 +6,7 @@ author: derek
 layout: superfan
 superfan_index: true
 guid: "http://www.sectionthirteen.com/?page_id=15"
+permalink: /superfan/
 image: /assets/img/2014/05/Website-banner.jpg
 ---
 
